@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="discription" content="Portfolio website">
+    <meta name="keywords" content="HTMS, CSS, JavaScript, C, C++, Projects, Portfolio, about">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+    <link rel="stylesheet" href="style.css">
+    <title>John Doe: Resume</title>
+</head>
+
+<body>
+    <section id="top-section">
+        <div class="header">
+            <p class="name title">JOHN DOE</p>
+            <p class="ph-no title"><i class="fas fa-phone"></i>  91 8888888888</p>
+        </div>
+        <div class="profile-container">
+            <div class="image-container">
+                <img src="profile-photo.jpg" class="profile-image"/>
+            </div>
+            <div class="profile-content">
+                <p class="profile-name">Hi, I AM JOHN DOE</p>
+                <p class="profile-profession">DEVELOPER</p>
+                <div class="profile-button">
+
+                    <a href="#my-work"><button><p>My Work</p></button></a>
+                    <a href="#contact"><button><p>Contact Me</p></button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about-me">
+        <div class="about-me-container">
+            <p class="title">About Me</p>
+            <p class="introduction">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id natus at sed nam totam, doloremque magni ducimus expedita ut odio cumque ad sunt numquam officia exercitationem laudantium in eius quo.
+            </p>
+        </div>
+        <div class="experience">
+
+        </div>
+        <div class="skills">
+            
+        </div>
+    </section>
+    <section id="my-work">
+        
+            <p class="title">Projects</p>
+            <p class="introduction">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum odit beatae porro quae, necessitatibus non aperiam dolorum vitae voluptatum ipsa, aliquam unde cupiditate sapiente molestias tempore praesentium officia fugit voluptates?
+            </p>
+            <div class="project-container">
+                <div class="col-sm-4">
+                    <div class="project">
+                        <img class="project-image" src="project-sample1.jpg" alt="Project Image">
+                        <p class="content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus accusamus at, placeat omnis iure impedit doloremque sunt sint quisquam sed? Commodi sint molestiae, omnis culpa numquam vitae quod quisquam animi.</p>
+                    </div>
+                    </div>
+                <div class="col-sm-4">
+                    <div class="project">
+                        <img class="project-image" src="project-sample2.jpg" alt="Project Image">
+                        <p class="content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus accusamus at, placeat omnis iure impedit doloremque sunt sint quisquam sed? Commodi sint molestiae, omnis culpa numquam vitae quod quisquam animi.</p>
+                
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="project">
+                        <img class="project-image" src="project-sample3.jpg" alt="Project Image">
+                        <p class="content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus accusamus at, placeat omnis iure impedit doloremque sunt sint quisquam sed? Commodi sint molestiae, omnis culpa numquam vitae quod quisquam animi.</p>
+                    </div>
+                </div>
+            </div>
+            <a href="projects.html" class="button"><button>More Projects</button></a>
+    </section>
+    <section id="contact">
+        <div class="contact-container">
+            <div class="contact-me">
+                <a href="https://www.youtube.com/example" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-youtube"></i>
+                  </a>
+                  <a href="https://www.instagram.com/example" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/in/example" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+            </div>
+            <div class="contact-form">
+                <p class="content">Enter your email and I will reach out to you</p>
+                <form id="emailForm" onsubmit="">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <button type="submit">Contact Me</button>
+                  </form>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
